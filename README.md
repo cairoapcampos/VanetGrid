@@ -148,9 +148,9 @@ parkingArea: Nome da área de estacionamento
 
 duration: Tempo de parada
 
-### Rodar simulação no SUMO graficamente:
+### Visualizar pontos de parada/estacionamento:
 
-1. Executar o comando:
+1. Executar novamente o comando:
 
 `sumo-gui name.sumo.cfg`
 
