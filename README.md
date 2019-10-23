@@ -23,7 +23,7 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 
 ### Gerar fluxo de veiculos aleatórios
 
-`randomTrips.py -n name.net.xml -e 5000 -r name.rou.xml`
+`/home/veins/src/sumo/tools/randomTrips.py -n name.net.xml -e 5000 -r name.rou.xml`
 
 * Opções:
 
