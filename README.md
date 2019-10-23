@@ -80,29 +80,22 @@ Clicar com o botão direito do mouse e escolher a opção "Copy name to clipboar
 1. Após copiar os nomes das ruas, inserir as linhas abaixo no final do arquivo `*.net.xml`, antes da tag `</net>` para cada via que terá um ponto de estacionamento:
 
 ```
-<parkingArea id="parkingArea1" lane="B3B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea2" lane="B2B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="B1B0_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea1" lane="B2A2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea2" lane="C2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea3" lane="D2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea4" lane="C2C3_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea5" lane="C1C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea6" lane="C0C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea1" lane="A2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea2" lane="B2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea3" lane="C2D2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea7" lane="B2A2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea8" lane="C2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea9" lane="D2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea1" lane="B1A1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea2" lane="C1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea3" lane="D1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea10" lane="A2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea11" lane="B2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea12" lane="C2D2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea1" lane="A1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea2" lane="B1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea3" lane="C1D1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea13" lane="B1A1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea14" lane="C1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea15" lane="D1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-
-<parkingArea id="parkingArea16" lane="A1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea17" lane="B1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea18" lane="C1D1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 ```
 
 * Opções:
