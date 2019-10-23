@@ -33,6 +33,35 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 
 -r: Define o arquivo de saida de rota.
 
+### Criar arquivo *.cfg
+
+1. Criar um novo arquivo:
+
+`nano name.sumo.cfg`
+
+2. Adicionar o conteúdo abaixo:
+
+```
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+      
+	<input>
+            <net-file value="name.net.xml"/>
+            <route-files value="name.rou.xml"/>
+        </input>
+
+        <report>
+             <xml-validation value="never"/>
+             <xml-validation.net value="never"/>
+             <no-step-log value="true"/>
+        </report>
+
+        <gui_only>
+             <start value="true"/>
+        </gui_only>
+
+</configuration>
+```
+
 ### Obter nomes das vias que terão pontos de estacionamento:
 
 1. Executar o comando:
@@ -118,35 +147,6 @@ edges: Define o nome das vias (arestas) pelas quais um veiculo passará (rota de
 parkingArea: Nome da área de estacionamento
 
 duration: Tempo de parada
-
-### Criar arquivo *.cfg
-
-1. Criar um novo arquivo:
-
-`nano name.sumo.cfg`
-
-2. Adicionar o conteúdo abaixo:
-
-```
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
-      
-	<input>
-            <net-file value="name.net.xml"/>
-            <route-files value="name.rou.xml"/>
-        </input>
-
-        <report>
-             <xml-validation value="never"/>
-             <xml-validation.net value="never"/>
-             <no-step-log value="true"/>
-        </report>
-
-        <gui_only>
-             <start value="true"/>
-        </gui_only>
-
-</configuration>
-```
 
 ### Rodar simulação no SUMO graficamente:
 
