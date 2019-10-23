@@ -83,7 +83,7 @@ endPos: Posição final da faixa em metros
  
 * Opções:
 
-### Ver simulação no SUMO:
+### Rodar simulação no SUMO graficamente:
 
 1. Executar o comando:
 
