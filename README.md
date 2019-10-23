@@ -19,3 +19,16 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 --number: Define o número de junções em ambas as direções. O comando acima criará um grid 4x4.
 
 --length: Comprimento das ruas nas duas direções
+
+
+### Gerar fluxo de veiculos aleatórios
+
+`randomTrips.py -n name.net.xml -e 5000 -r name.rou.xml`
+
+* Opções:
+
+-n: Define o arquivo de rede de entrada;
+
+-e: Deine o tempo final de simulação em segundos;
+
+-r: Define o arquivo de saida de rota.
