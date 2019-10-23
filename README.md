@@ -64,7 +64,7 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 
 ### Definir áreas de parada:
 
-1. Inserir as linhas abaixo no final do arquivo `net.xml`, antes da tag `</net>`:
+1. Inserir as linhas abaixo no final do arquivo `*.net.xml`, antes da tag `</net>`:
 
 ```
 <parkingArea id="parkingArea1" lane="B3B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
@@ -108,7 +108,7 @@ endPos: Posição final da faixa em metros
 
 1. Como abaixo, para cada veículo que deverá estacionar inserir a linha:
 
-`<stop parkingArea="parkingArea13" duration="3000.00"/>` entre as tags `<vehicle>` e `</vehicle>` no arquivo `rou.xml`:
+`<stop parkingArea="parkingArea13" duration="3000.00"/>` entre as tags `<vehicle>` e `</vehicle>` no arquivo `*.rou.xml`:
 
 ```
 <vehicle id="0" depart="0.00">
