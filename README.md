@@ -45,8 +45,8 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
       
 	<input>
-            <net-file value="erlangen.net.xml"/>
-            <route-files value="erlangen.rou.xml"/>
+            <net-file value="name.net.xml"/>
+            <route-files value="name.rou.xml"/>
         </input>
 
         <report>
