@@ -48,7 +48,7 @@ Clicar com o botão direito do mouse e escolher a opção "Copy name to clipboar
 
 ### Definir áreas de parada:
 
-1. Inserir as linhas abaixo no final do arquivo `*.net.xml`, antes da tag `</net>`:
+1. Após copiar os nomes das ruas, inserir as linhas abaixo no final do arquivo `*.net.xml`, antes da tag `</net>` para cada via que terá um ponto de estacionamento:
 
 ```
 <parkingArea id="parkingArea1" lane="B3B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
