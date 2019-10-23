@@ -10,7 +10,7 @@ ou
 netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 ```
 
-Obs:
+*Opções:
 --g: Define que a rede a ser criada será do tipo grid
 --o: Grava a rede gerada em um arquivo de saída
 --number: Define o número de junções em ambas as direções.
