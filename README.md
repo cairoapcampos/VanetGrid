@@ -126,3 +126,4 @@ duration: Tempo de parada
 * https://sumo.dlr.de/docs/Tutorials/Manhattan.html
 * http://manpages.ubuntu.com/manpages/cosmic/man1/netgenerate.1.html
 * https://sumo.dlr.de/docs/Simulation/ParkingArea.html
+* https://sumo.dlr.de/docs/Definition_of_Vehicles,_Vehicle_Types,_and_Routes.html
