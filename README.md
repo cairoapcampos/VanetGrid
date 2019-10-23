@@ -105,7 +105,7 @@ duration: Tempo de parada
 
 `sumo-gui name.sumo.cfg`
 
-Exemplo de Grid 4x4:
+Exemplo de Grid 4x4 com pontos de parada ao executar o comando acima:
 
 ![Grid 4x4 com paradas](https://github.com/cairoapcampos/VanetGrid/raw/master/Grid4x4.png)
 
