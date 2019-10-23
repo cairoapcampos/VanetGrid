@@ -84,25 +84,25 @@ Clicar com o botão direito do mouse e escolher a opção "Copy name to clipboar
 <parkingArea id="parkingArea2" lane="C2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 <parkingArea id="parkingArea3" lane="D2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea1" lane="A2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea2" lane="B2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="C2D2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea4" lane="A2B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea5" lane="B2C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea6" lane="C2D2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea1" lane="B1A1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea2" lane="C1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="D1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea7" lane="B1A1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea8" lane="C1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea9" lane="D1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea1" lane="A1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea2" lane="B1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="C1D1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea10" lane="A1B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea11" lane="B1C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea12" lane="C1D1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea3" lane="B3B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="B2B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="B1B0_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea13" lane="B3B2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea14" lane="B2B1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea15" lane="B1B0_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
-<parkingArea id="parkingArea3" lane="C2C3_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="C1C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
-<parkingArea id="parkingArea3" lane="C0C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea16" lane="C2C3_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea17" lane="C1C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+<parkingArea id="parkingArea18" lane="C0C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
 ```
 
