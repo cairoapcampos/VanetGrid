@@ -42,11 +42,23 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 2. Adicionar o conteúdo abaixo:
 
 ```
-<configuration>
-               <input>
-               <net-file value="name.net.xml"/>
-               <route-files value="name.rou.xml"/>
-               </input>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+      
+	<input>
+            <net-file value="erlangen.net.xml"/>
+            <route-files value="erlangen.rou.xml"/>
+        </input>
+
+        <report>
+             <xml-validation value="never"/>
+             <xml-validation.net value="never"/>
+             <no-step-log value="true"/>
+        </report>
+
+        <gui_only>
+             <start value="true"/>
+        </gui_only>
+
 </configuration>
 ```
 
