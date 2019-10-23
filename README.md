@@ -98,6 +98,7 @@ endPos: Posição final da faixa em metros
 2. Listar parametros de randomTrips e netgenerate:
 
 `./randomTrips.py --help ou ./randomTrips.py -h`
+
 `netgenerate --help`
 
 
