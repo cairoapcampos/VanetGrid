@@ -32,3 +32,17 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 -e: Deine o tempo final de simulação em segundos;
 
 -r: Define o arquivo de saida de rota.
+
+### Criar arquivo *.cfg
+
+nano name.sumo.cfg
+
+Conteúdo do arquivo:
+
+<configuration>
+               <input>
+               <net-file value="name.net.xml"/>
+               <route-files value="name.rou.xml"/>
+               </input>
+</configuration>
+
