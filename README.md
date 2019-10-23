@@ -50,3 +50,21 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 </configuration>
 ```
 
+### Definir áreas de parada:
+
+1. Inserir a linha abaixo no final do arquivo net.xml:
+
+<parkingArea id="parkingArea1" lane="1/2to0/2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+
+* Obs:
+
+id: Nome da área de estacionamento
+
+lane: nome da faixa de transito definida pelo SUMO
+
+roadsideCapacity: Capacidade de veiculos em cada área de estacionamento
+
+startPos: posição inicial da faixa em metros
+
+endPos: Posição final da faixa em metros
+
