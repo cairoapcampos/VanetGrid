@@ -35,9 +35,9 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 
 ### Obter nomes das vias que terão pontos de estacionamento:
 
-`1. Executar o comando:`
+1. Executar o comando:
 
-sumo-gui name.sumo.cfg
+`sumo-gui name.sumo.cfg`
 
 2. Obter nome da via que terá o estacionamento. 
 
