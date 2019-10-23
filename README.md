@@ -33,6 +33,16 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 
 -r: Define o arquivo de saida de rota.
 
+### Obter nomes das vias que terão pontos de estacionamento:
+
+`1. Executar o comando:`
+
+sumo-gui name.sumo.cfg
+
+2. Obter nome da via que terá o estacionamento. 
+
+Clicar com o botão direito do mouse e escolher a opção "Copy name to clipboard".
+
 ### Definir áreas de parada:
 
 1. Inserir as linhas abaixo no final do arquivo `*.net.xml`, antes da tag `</net>`:
