@@ -35,14 +35,18 @@ netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
 
 ### Criar arquivo *.cfg
 
-nano name.sumo.cfg
+1. Criar um novo arquivo:
 
-Conteúdo do arquivo:
+`nano name.sumo.cfg`
 
+2. Adicionar o conteúdo abaixo:
+
+```
 <configuration>
                <input>
                <net-file value="name.net.xml"/>
                <route-files value="name.rou.xml"/>
                </input>
 </configuration>
+```
 
