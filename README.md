@@ -105,6 +105,9 @@ duration: Tempo de parada
 
 `sumo-gui name.sumo.cfg`
 
+
+![Grid 4x4 com paradas](https://github.com/cairoapcampos/VanetGrid/raw/master/Grid4x4.png)
+
 ### Informações Gerais:
 
 1. Diretório de ferramentas do SUMO:
