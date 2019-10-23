@@ -4,9 +4,11 @@
 
 ### Gera um grid do tipo Manhattan:
 
-`netgenerate --g --number=4 --length=200 --o name.net.xml`
+```
+netgenerate --g --number=4 --length=200 --o name.net.xml
 ou 
-`netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml`
+netgenerate --g --grid.number=4 --grid.length=200 --o name.net.xml
+```
 
 Obs:
 --g: Define que a rede a ser criada será do tipo grid
