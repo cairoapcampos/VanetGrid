@@ -83,6 +83,12 @@ endPos: Posição final da faixa em metros
  
 * Opções:
 
+** Tag stop:
+
+parkingArea: Nome da área de estacionamento
+
+duration: Tempo de parada
+
 ### Rodar simulação no SUMO graficamente:
 
 1. Executar o comando:
