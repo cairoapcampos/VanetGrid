@@ -83,7 +83,17 @@ endPos: Posição final da faixa em metros
  
 * Opções:
 
-** Tag stop:
+#### Tag vehicle
+
+depart: Tempo em que o veículo deve entrar na rede
+
+id: ID do veículo
+
+#### Tag route
+
+edges: Define o nome das vias (arestas) pelas quais um veiculo passará. A área de estacionamento deve estar em uma destas arestas.
+
+#### Tag stop:
 
 parkingArea: Nome da área de estacionamento
 
