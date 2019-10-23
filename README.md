@@ -80,4 +80,32 @@ endPos: Posição final da faixa em metros
         <stop parkingArea="parkingArea13" duration="3000.00"/>
  </vehicle>
  ```
+ 
+* Opções:
 
+### Ver simulação no SUMO:
+
+1. Executar o comando:
+
+`sumo-gui name.sumo.cfg`
+
+### Informações Gerais:
+
+1. Diretório de ferramentas do SUMO:
+
+`/home/veins/src/sumo/tools`
+
+2. Listar parametros de randomTrips e netgenerate:
+
+`./randomTrips.py --help ou ./randomTrips.py -h`
+`netgenerate --help`
+
+
+### Fontes:
+
+* http://alibalador.blogspot.com/2013/02/working-with-sumo.html
+* https://sumo.dlr.de/docs/NETGENERATE.html
+* https://sumo.dlr.de/docs/Tools/Trip.html
+* https://sumo.dlr.de/docs/Tutorials/Manhattan.html
+* http://manpages.ubuntu.com/manpages/cosmic/man1/netgenerate.1.html
+* https://sumo.dlr.de/docs/Simulation/ParkingArea.html
