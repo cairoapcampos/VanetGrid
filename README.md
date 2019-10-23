@@ -91,7 +91,7 @@ id: ID do veículo
 
 #### Tag route
 
-edges: Define o nome das vias (arestas) pelas quais um veiculo passará. A área de estacionamento deve estar em uma destas arestas.
+edges: Define o nome das vias (arestas) pelas quais um veiculo passará (rota de um veículo). A área de estacionamento deve estar em uma destas arestas.
 
 #### Tag stop:
 
