@@ -68,3 +68,16 @@ startPos: posição inicial da faixa em metros
 
 endPos: Posição final da faixa em metros
 
+### Definir veículos que estacionarão
+
+1. Como abaixo, para cada veículo que deverá estacionar inserir a linha:
+
+`<stop parkingArea="parkingArea13" duration="3000.00"/>` entre as tags `<vehicle>` e `</vehicle>` no arquivo rou.xml:
+
+```
+<vehicle id="0" depart="0.00">
+        <route edges="0/3to1/3 1/3to1/2 1/2to0/2 0/2to0/3"/>
+        <stop parkingArea="parkingArea13" duration="3000.00"/>
+ </vehicle>
+ ```
+
