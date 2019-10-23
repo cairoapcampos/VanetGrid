@@ -43,6 +43,9 @@ sumo-gui name.sumo.cfg
 
 Clicar com o botão direito do mouse e escolher a opção "Copy name to clipboard".
 
+![Nome Rua](https://github.com/cairoapcampos/VanetGrid/raw/master/streetName.png)
+
+
 ### Definir áreas de parada:
 
 1. Inserir as linhas abaixo no final do arquivo `*.net.xml`, antes da tag `</net>`:
