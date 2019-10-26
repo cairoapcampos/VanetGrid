@@ -104,6 +104,14 @@ Clicar com o botão direito do mouse e escolher a opção "Copy name to clipboar
 <parkingArea id="parkingArea17" lane="C1C2_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 <parkingArea id="parkingArea18" lane="C0C1_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
 
+ <parkingArea id="parkingArea19" lane="A3B3_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+ <parkingArea id="parkingArea20" lane="B3C3_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+ <parkingArea id="parkingArea21" lane="C3D3_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+
+ <parkingArea id="parkingArea22" lane="B0A0_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+ <parkingArea id="parkingArea23" lane="C0B0_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+ <parkingArea id="parkingArea24" lane="D0C0_0" roadsideCapacity="30" startPos="10.00" endPos="180.00"/>
+
 ```
 
 * Opções:
