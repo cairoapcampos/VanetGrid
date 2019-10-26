@@ -165,7 +165,7 @@ duration: Tempo de parada
 
 Exemplo de Grid 4x4 com pontos de parada ao executar o comando acima:
 
-![Grid 4x4 com paradas](https://github.com/cairoapcampos/VanetGrid/raw/master/Grid4x4.png)
+![Grid 4x4 com paradas](https://github.com/cairoapcampos/VanetGrid/raw/master/FigGrid4x4.png)
 
 ### Informações Gerais:
 
