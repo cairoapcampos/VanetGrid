@@ -179,6 +179,9 @@ Exemplo de Grid 4x4 com pontos de parada ao executar o comando acima:
 
 `netgenerate --help`
 
+3. Compilar programas em C++
+
+`g++ -o MeuPrograma MeuPrograma.cpp`
 
 ### Fontes:
 
